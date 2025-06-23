@@ -1,0 +1,104 @@
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: #fdf9f4;
+  color: #5c3a21;
+}
+
+.judul-utama {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #8b4513;
+}
+
+.opening-page, .main-page {
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  background-color: #fff8e1;
+}
+
+.buka-container {
+  margin-top: 20vh;
+}
+
+.buka-container h1 {
+  font-size: 2.5rem;
+  color: #8b4513;
+}
+
+.buka-container button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #a0522d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buka-container button:hover {
+  background-color: #7b3f1d;
+}
+
+.header h2 {
+  font-size: 2rem;
+  font-family: 'Great Vibes', cursive;
+  color: #6b3e26;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.content {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #fffdf7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #d8cfc4;
+}
+
+.btn-lokasi {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #a0522d;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn-lokasi:hover {
+  background-color: #7b3f1d;
+}
+
+.thank-you {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f4e7;
+  border-top: 2px dashed #a0522d;
+  font-family: 'Lora', serif;
+}
+
+.thank-you h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  color: #8b4513;
+}
+
+
+/* Tambahan agar semua teks di center */
+body, .content, .thank-you, .header {
+  text-align: center;
+}
+
+.content p, .content h3, .content h4 {
+  text-align: center;
+}
